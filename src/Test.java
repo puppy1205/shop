@@ -1,3 +1,4 @@
+import java.io.File;
 import java.util.Scanner;
 
 public class Test {
@@ -10,5 +11,7 @@ public class Test {
         System.out.println("请输入密码");
         String password=sc.next();
         System.out.println("你输入的密码是"+password);
+
+        File file=new File(C:\Users\lenovo\IdeaProjects\shop\src)
     }
 }
