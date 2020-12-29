@@ -18,6 +18,7 @@ public class Test {
         User users[]=readExcel.readExcel(file);
         for (int i=0;i<users.length;i++){
             if (username.equals(users[i].getUsername()) && password.equals(users[i].getPassword())){
+                System.out.println("登陆成功");
                 break;
 
             }
